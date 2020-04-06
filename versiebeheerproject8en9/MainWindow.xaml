@@ -15,5 +15,9 @@
             <TextBlock FontSize="50">Username:</TextBlock>
             <TextBox Height="50"></TextBox>
         </StackPanel>
+        <StackPanel Grid.Row="1" HorizontalAlignment="Center">
+            <TextBlock FontSize="50">Password:</TextBlock>
+            <PasswordBox Height="50"></PasswordBox>
+        </StackPanel>
     </Grid>
 </Window>
