@@ -6,16 +6,16 @@
         xmlns:local="clr-namespace:versiebeheerproject8en9"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Background="AliceBlue">
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <StackPanel Grid.Row="0" HorizontalAlignment="Center">
+        <StackPanel Width="300"  Background="AntiqueWhite" Grid.Row="0" HorizontalAlignment="Center">
             <TextBlock FontSize="50">Username:</TextBlock>
             <TextBox Height="50"></TextBox>
         </StackPanel>
-        <StackPanel Grid.Row="1" HorizontalAlignment="Center">
+        <StackPanel Width="300" Background="AntiqueWhite" Grid.Row="1" HorizontalAlignment="Center">
             <TextBlock FontSize="50">Password:</TextBlock>
             <PasswordBox Height="50"></PasswordBox>
         </StackPanel>
